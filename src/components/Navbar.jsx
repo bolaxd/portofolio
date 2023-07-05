@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import {
   GitHubLogoIcon,
-  LinkedInLogoIcon,
   InstagramLogoIcon,
   EnvelopeClosedIcon,
   FileTextIcon,
@@ -45,13 +44,6 @@ function Navbar() {
         >
           <GitHubLogoIcon width={20} height={20} />
           <li className="hidden md:block">Github</li>
-        </a>
-        <a
-          className="flex gap-4 justify-center items-center"
-          href="https://www.linkedin.com/in/achraf-garai/"
-        >
-          <LinkedInLogoIcon width={20} height={20} />
-          <li className="hidden md:block">LinkedIn</li>
         </a>
         <a
           className="flex gap-4 justify-center items-center"
